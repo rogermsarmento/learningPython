@@ -6,6 +6,7 @@ import sys
 def help():
     print("É necessário informar o raio do círculo.")
     print("Sintaxe: {} <raio>".format(sys.argv[0][2:]))
+    # Com isso excluimos o ./ da mensagem.
 
 
 def circulo(raio):

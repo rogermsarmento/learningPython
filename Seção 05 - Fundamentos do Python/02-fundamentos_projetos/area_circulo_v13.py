@@ -16,7 +16,8 @@ def circulo(raio):
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         help()
-        # sys.exit(errno.EPERM)
+        # sys.exit(1) # Escriot terminou com erro.
+        # sys.exit(errno.EPERM) # Python tem varios numeros de erro.
     else:
         raio = sys.argv[1]
         area = circulo(raio)

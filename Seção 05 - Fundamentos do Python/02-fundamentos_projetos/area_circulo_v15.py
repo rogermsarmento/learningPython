@@ -4,6 +4,7 @@ import sys
 import errno
 
 
+# A classe é criada para não inserirmos as cores no escopo global.
 class TerminalColor:
     ERRO = '\033[91m'
     NORMAL = '\033[0m'

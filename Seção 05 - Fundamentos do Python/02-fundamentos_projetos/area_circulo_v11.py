@@ -10,7 +10,10 @@ def circulo(raio):
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("É necessário informar o raio do círculo.")
-        print("Sintaxe: {} <raio>".format(sys.argv[0][2:]))
+        print("Sintaxe: area_circulo <raio>")
+        # Desafio
+        # print("É necessário informar o raio do círculo.")
+        # print("Sintaxe: {} <raio>".format(sys.argv[0][2:]))
     else:
         raio = sys.argv[1]
         area = circulo(raio)
