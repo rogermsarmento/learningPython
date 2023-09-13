@@ -1,3 +1,5 @@
+# Simulação de SWITCH-CASE-BREAK
+
 def get_dia_semana(dia):
     dias = {
         1: 'Domingo',
@@ -9,6 +11,8 @@ def get_dia_semana(dia):
         7: 'Sábado',
     }
     return dias.get(dia, '** inválido **')
+# O segundo paramentro da função get é o defualt,
+# ou seja, quando não der match ele é usado.
 
 
 if __name__ == '__main__':
