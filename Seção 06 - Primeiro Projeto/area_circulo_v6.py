@@ -1,4 +1,5 @@
-#!/usr/local/bin/python3
+#! python
+# SUSTENIDO!/usr/local/bin/python3
 from math import pi
 
 raio = input('Informe o raio: ')

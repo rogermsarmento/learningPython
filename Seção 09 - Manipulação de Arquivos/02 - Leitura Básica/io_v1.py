@@ -3,26 +3,33 @@
 SUSTENIDO!/usr/local/bin/python3
 '''
 
-arquivo = open(r'..\Criando Arquivos CSV\Teste de Sistema com CSV\pessoas.csv')
+arquivo = open(
+    r'..\01 - Criando Arquivos CSV\Teste de Sistema com CSV\pessoas.csv')
 # Capaturei o conteudo do arqwuivo e coloquei dentro de dados.
 dados = arquivo.read()
 arquivo.close()  # Liberei os recursos do sistema que estavam em uso.
-
+print("1º -------------------------------")
 # Divida uma string em uma lista onde cada linha é um item da lista:
 for registro in dados.splitlines():
     print(registro)
-
+print("\n")
+print("2º -------------------------------")
 for registro in dados.splitlines():
+
     print(registro.split(','))  # Separa o registro em duas parte.
     # Será criado uma lista que tem como primeiro elemento o nome
     # e o segundo a idade.
-
+print("\n")
+print("3º -------------------------------")
 for registro in dados.splitlines():
     # Com o * os valores são passados como argumentos.
     # Os itens de registro.split(',') serão passados como argumentos.
     print(*registro.split(','))
 
+print("\n")
+print("4º -------------------------------")
 for registro in dados.splitlines():
+
     print('Nome: {}, Idade: {}'.format(*registro.split(',')))
 
 '''

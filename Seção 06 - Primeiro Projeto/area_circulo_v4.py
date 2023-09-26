@@ -1,4 +1,5 @@
-#!/usr/local/bin/python3
+#! python
+# SUSTENIDO!/usr/local/bin/python3
 # import math
 # No caso acima precisamos usar math.pi
 from math import pi
