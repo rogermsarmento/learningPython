@@ -23,9 +23,15 @@ def soma_n(*numeros):
 if __name__ == '__main__':
     print(soma_2(2, 3))
     print(soma_3(2, 3, 4))
-    print(soma_n(1, 2, 3, 4, 5, 6, 7, 8, 9, 0))  # packing
 
-    # unpacking
+    # packing - empacotando os paramentos para
+    # dentro de uma tupla e passado para função.
+    print(soma_n(1))
+    print(soma_n(1, 1))
+    print(soma_n(1, 2, 3, 4, 5, 6, 7, 8, 9, 0))
+
+    # unpacking - pegamos um tupla e passamos
+    # como parâmetro para função.
     tupla_nuns = (1, 10, 100)
     print(soma_n(*tupla_nuns))
 
