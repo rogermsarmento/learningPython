@@ -15,3 +15,12 @@ if __name__ == '__main__':
     # Listar os 20 primeiros numeros de fibo.
     for fib in fibonacci(20):
         print(fib)
+
+'''python
+a = (1, 2)
+b = (3, 4)
+type(a)
+type(b)
+a + b
+(1, 2, 3, 4)
+'''
